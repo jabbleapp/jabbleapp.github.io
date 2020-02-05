@@ -9,7 +9,7 @@ body {
 }
 
 .hero-image {
-    background-image: url("jabblebg.png");
+    background-image: url("https://github.com/jabbleapp/jabbleapp.github.io/blob/master/jabblebg.png?raw=true");
     height: 100%;
     max-width: 500px;
     margin-left: auto;
