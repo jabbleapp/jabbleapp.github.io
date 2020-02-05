@@ -1,0 +1,56 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #EBE9E8;
+    background-color: #f08c45;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+}
+
+.hero-image {
+    background-image: url("jabblebg.png");
+    height: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+div {
+    display: block;
+}
+
+.logo {
+    width: 80%;
+    margin-top: 10vh;
+}
+
+@media screen and (min-width: 800px) {
+    .logo {
+        width: 564px !important;
+    }
+}
+
+.title.hero {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.full-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.download-buttons-container {
+    position:absolute;
+    top: 50%;
+}
+
